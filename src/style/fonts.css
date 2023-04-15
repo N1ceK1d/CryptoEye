@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Monoton;
+    src: url("../../public/fonts/Monoton/Monoton-Regular.ttf");
+}
+
+@font-face {
+    font-family: Bebas_Neue;
+    src: url("../../public/fonts/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+    font-family: Chakra_Petch;
+    src: url("../../public/fonts/Chakra_Petch/ChakraPetch-Regular.ttf");
+}
+
+@font-face {
+    font-family: Press_Start_2P;
+    src: url("../../public/fonts/Press_Start_2P/PressStart2P-Regular.ttf");
+}
+
+@font-face {
+    font-family: PT_Mono;
+    src: url("../../public/fonts/PT_Mono/PTMono-Regular.ttf");
+}
+
+@font-face {
+    font-family: Secular_One;
+    src: url("../../public/fonts/Secular_One/SecularOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: Sedgwic_Ave_Display;
+    src: url("../../public/fonts/Sedgwick_Ave_Display/SedgwickAveDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: Shadows_Into_Light;
+    src: url("../../public/fonts/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf");
+}

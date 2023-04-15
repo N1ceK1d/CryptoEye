@@ -1,0 +1,31 @@
+.profile h1 {
+    text-align: center;
+    color:rgb(157, 255, 0);
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.profile .sessionBtn {
+    margin: 20px 10px;
+    font-size: 20px;
+    width: 40%;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    background-color: rgb(157, 255, 0);
+    padding: 20px 0;
+    transition: .3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile .sessionBtn:hover {
+    transition: .3s;
+    cursor: pointer;
+    background-color: rgb(101, 164, 0);
+}
