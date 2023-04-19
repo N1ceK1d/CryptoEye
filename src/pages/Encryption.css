@@ -1,0 +1,79 @@
+.Encryption {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+
+.Encryption div {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    margin: 2vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Encryption div .encrypt_option {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Encryption div .encrypt_option select {
+    font-size: 20px;
+    text-align: center;
+    margin: 5px auto;
+    color:rgb(157, 255, 0);
+    background-color: rgb(49, 46, 77);
+    border: none;
+    padding: 1px;
+    transition: .3s;
+    outline: 0;
+    outline-offset: 0;
+}
+
+.Encryption div .encrypt_option select:hover {
+    background-color: rgb(157, 255, 0);
+    color: black;
+    transition: .3s;
+}
+
+.Encryption div input[type="text"] {
+    font-size: 20px;
+    text-align: center;
+    width: 250px;
+    margin: 5px auto;
+    outline: 0;
+    outline-offset: 0;
+}
+
+.Encryption div textarea {
+    background: rgb(49, 46, 77);
+    backdrop-filter: blur(10px);
+    color: white;
+    height: 100px;
+    margin: 10px;
+    resize: none;
+    font-size: 18px;
+    padding: 10px;
+    outline: 0;
+    outline-offset: 0;
+}
+
+.Encryption div button {
+    margin: 10px auto;
+    font-size: 20px;
+    width: 50%;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    background-color: rgb(157, 255, 0);
+    padding: 10px 0;
+    transition: .3s;
+}
+
+.Encryption div button:hover {
+    transition: .3s;
+    cursor: pointer;
+    background-color: rgb(101, 164, 0);
+}
